@@ -15,7 +15,7 @@ def bubble_sort(array)
                 end
             end
         end
-        bubble_sort(array.slice(0..-1))
+        bubble_sort(array)
     else
         array
     end
